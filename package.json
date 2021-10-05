@@ -1,0 +1,25 @@
+{
+  "name": "inst362_group_2",
+  "version": "1.0.0",
+  "description": "INST362 Group 2 Website",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerrycrews1/inst362-group-2.git"
+  },
+  "author": "Jerry Crews",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerrycrews1/inst362-group-2/issues"
+  },
+  "homepage": "https://github.com/jerrycrews1/inst362-group-2#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
+  }
+}

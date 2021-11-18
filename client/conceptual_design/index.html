@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+            crossorigin="anonymous"
+        />
+
+        <title>Conceptual Design</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/">Group 2</a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="navbarDropdown1"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Analyze
+                                </a>
+                                <div
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdown1"
+                                >
+                                    <a
+                                        class="dropdown-item"
+                                        href="/contextual_inquiry"
+                                        >Contextual Inquiry</a
+                                    >
+                                    <a
+                                        class="dropdown-item"
+                                        href="/contextual_analysis"
+                                        >Contextual Analysis</a
+                                    >
+                                    <a
+                                        class="dropdown-item"
+                                        href="/concept_statement"
+                                        >Concept Statement</a
+                                    >
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle active-item"
+                                    href="#"
+                                    id="navbarDropdown2"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Design
+                                </a>
+                                <div
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdown2"
+                                >
+                                    <a
+                                        class="dropdown-item"
+                                        href="/design_thinking"
+                                        >Design Thinking</a
+                                    >
+                                    <a
+                                        class="dropdown-item active-item"
+                                        href="/conceptual_design"
+                                        >Conceptual Design</a
+                                    >
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container">
+                <h1>Conceptual Design</h1>
+                <div>
+                    <h3>Concept Statement</h3>
+                    <p>
+                        The UMD Mental Health Assistance System will replace the
+                        old behavioral health services provided by our client:
+                        the University of Maryland Health Center. It will
+                        provide 24-hour-a-day services to general students,
+                        especially to support freshmen students seeking mental
+                        health assistance. This service includes online mental
+                        health assistance for those who want to have an
+                        anonymous setting, for those seeking other resources,
+                        and for those who would like to meet outside of the UMD
+                        Health Center. The new system includes VR meetings,
+                        chatting, scheduled, although short notice, meetings
+                        outside of the health center, and video calls for those
+                        who live away from the campus and can’t commute to get
+                        assistance. The new design will be more inclusive of
+                        disabled students who wish to seek mental health
+                        treatment; our design will include various features, for
+                        example, a video with clear audio and subtitles to
+                        discuss treatment methods and processes to provide clear
+                        guidance. Furthermore, to acknowledge students of our
+                        existence, we will send weekly emails to students to
+                        seek our services if they are suffering from mental
+                        health disorders. Overall, previous behavioral health
+                        services failed to provide a variety of options,
+                        resulting in extensive waiting time and avoidance in
+                        seeking treatment. Compared to behavioral health
+                        services, our system will provide a variety of options
+                        to encourage students to seek mental health assistance
+                        comfortably. We will implement a UX solution that guides
+                        and encourages our users, primarily freshmen students,
+                        who experience mental health issues to seek our system.
+                        The changes we’ve made are minor. We made changes to
+                        some terminology to be more inclusive of those who need
+                        mental health assistance. In an earlier version, we were
+                        too narrow in our scope of the user by stating it was
+                        for those with mental health disorders, but now we are
+                        broadening our scope to include any student who needs
+                        mental health assistance with our continued focus on
+                        freshmen.
+                    </p>
+                </div>
+                <div>
+                    <h3>Mental Model Sketches</h3>
+                    <h4>Ecological Perspective</h4>
+                    <figure>
+                        <img
+                            src="/conceptual_design/sketches/ecological_sketch1.jpg"
+                            alt="sketch of user chatting with a health professional."
+                        />
+                        <figcaption>
+                            This sketch represents how a user will chat with a
+                            professional at the health center. The user chats on
+                            their device and the chat is sent to the server
+                            where it is then sent to the health professional.
+                            The health professional responds and the system
+                            works the same but in reverse. This is an ecological
+                            perspective because it shows how the user and health
+                            professional chat over a network using their own
+                            device.
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img
+                            src="/conceptual_design/sketches/ecological_sketch2.jpg"
+                            alt="sketch of how resources are controlled on the website."
+                        />
+                        <figcaption>
+                            This sketch represents how a user can view the
+                            resources available to them on the UMD Health Center
+                            website for mental assistance. This is an ecological
+                            perspective because it shows how the server is
+                            holding the information, likely in a database, that
+                            is shown to the user. The UMD Health Center can edit
+                            these resources which are sent to the server and
+                            provided to the user when they access the website.
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img
+                            src="/conceptual_design/sketches/ecological_sketch3.jpg"
+                            alt="sketch of how a VR chat works."
+                        />
+                        <figcaption>
+                            This sketch is very similar to the first two. The
+                            server here is different from the others in that it
+                            must provide a constant connection and isn’t started
+                            or stopped throughout the session. The user connects
+                            to the server via their VR headset where they can
+                            chat with a health professional who is also using a
+                            VR headset connected to the server.
+                        </figcaption>
+                    </figure>
+                    <div>
+                        <h4>Interaction Perspective</h4>
+                        <figure>
+                            <img
+                                src="/conceptual_design/sketches/interaction_sketch1.jpg"
+                                alt="sketch of user pressing the chat button on mobile phone."
+                            />
+                            <figcaption>
+                                This sketch represents a user pressing the
+                                button to start a chat on the UMD Health Center
+                                website. This is an interaction perspective
+                                because it shows how the user would interact
+                                with the website to start a chat.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img
+                                src="/conceptual_design/sketches/interaction_sketch2.jpg"
+                                alt="sketch of user turning on VR headset and starting a chat with the wireless remote."
+                            />
+                            <figcaption>
+                                This sketch represents turning on/off a VR
+                                headset and starting a new VR chat with a health
+                                professional. The user can press the power
+                                button to turn the VR headset on or off. Once
+                                on, the wireless remote acts as a sort of mouse
+                                that the user can move to start a new chat. This
+                                is an interaction perspective because it shows
+                                what the user would need to do in order to start
+                                a new conversation.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img
+                                src="/conceptual_design/sketches/interaction_sketch3.jpg"
+                                alt="sketch of user scanning a QR code on a bench."
+                            />
+                            <figcaption>
+                                This sketch represents a user scanning a QR code
+                                on a bench. This QR code would take the user to
+                                the UMD Health Center website and show them
+                                available resources. This is an interaction
+                                perspective because it shows how the user would
+                                interact with their phone to scan the QR code
+                                which would ultimately take them to the website.
+                            </figcaption>
+                        </figure>
+                        <h4>Emotional Perspective</h4>
+                        <figure>
+                            <img
+                                src="/conceptual_design/sketches/emotional_sketch1.jpg"
+                                alt="sketch of user stressed and making an appointment"
+                            />
+                            <figcaption>
+                                This sketch represents a user who is stressed
+                                about finals and making a mental health
+                                appointment. Although the student is stressed,
+                                they are happy that the website was easy to use
+                                and that creating an appointment was very easy.
+                                This is an emotional perspective because it
+                                shows how the user is first stressed, and then a
+                                little relieved after using the system to make
+                                an appointment.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img
+                                src="/conceptual_design/sketches/emotional_sketch2.jpg"
+                                alt="sketch of user viewing their appointment on a mobile phone."
+                            />
+                            <figcaption>
+                                This sketch represents a user viewing their
+                                appointment information. The appointment is
+                                outside of the UMD Health Center. The user is
+                                very happy about not having to go to the health
+                                center. This is an emotional perspective because
+                                it shows a user's emotions while using our
+                                system to attend their session with a health
+                                professional outside of the health center.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img
+                                src="/conceptual_design/sketches/emotional_sketch3.jpg"
+                                alt="sketch of user chatting with an online health professional on a mobiel phone."
+                            />
+                            <figcaption>
+                                This sketch, while very small, is very
+                                important. The user is viewing a chat log on
+                                their phone between them and a health
+                                professional. The user is happy that they did
+                                not have to reveal their identity to receive
+                                mental health assistance. This is an emotional
+                                perspective because it shows the users emotions
+                                around using the anonymous chat feature of our
+                                system.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div>
+                    <h3>Storyboards</h3>
+                    <p>
+                        Our group split up the making of the 3 storyboards. We
+                        discussed the three different scenarios we were going to
+                        represent with our storyboards and split up the work.
+                    </p>
+                    <figure>
+                        <img
+                            src="/conceptual_design/storyboards/storyboard1.jpg"
+                            alt="storyboard sketch of user stressed and calling for help."
+                        />
+                        <figcaption>
+                            This storyboard shows a mentally unstable student
+                            due to excessive stress from an overload of school
+                            assignments. Since the student is busy, he doesn't
+                            have time to go to the institution for his mental
+                            instability; however, since there is a 24-hotline
+                            feature for those who want to talk, he utilizes the
+                            feature to talk about his current mental issues.
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img
+                            src="/conceptual_design/storyboards/storyboard2.jpg"
+                            alt="storyboard sketch of user getting mental health assistance via VR headset."
+                        />
+                        <figcaption>
+                            This storyboard depicts a challenged student who,
+                            due to his physical limitations, finds it difficult
+                            to obtain assistance from the health facility.
+                            Furthermore, the kid is preoccupied with his
+                            schoolwork and rarely has the opportunity to speak
+                            with someone about his mental health. The student
+                            however can now use the V.R chat option to talk to a
+                            mental health specialist at the health center about
+                            his concern.
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

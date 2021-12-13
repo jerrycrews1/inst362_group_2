@@ -1,5 +1,5 @@
 .active-item {
-    font-weight: bold;
+    font-weight: bold !important;
 }
 .rotate {
     transform: rotate(-90deg);

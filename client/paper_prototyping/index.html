@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="/paper_prototyping/style.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+            crossorigin="anonymous"
+        />
+
+        <title>INST 362 - Group 2</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/">Group 2</a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="navbarDropdown1"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Analyze
+                                </a>
+                                <div
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdown1"
+                                >
+                                    <a
+                                        class="dropdown-item"
+                                        href="/contextual_inquiry"
+                                        >Contextual Inquiry</a
+                                    >
+                                    <a
+                                        class="dropdown-item"
+                                        href="/contextual_analysis"
+                                        >Contextual Analysis</a
+                                    >
+                                    <a
+                                        class="dropdown-item"
+                                        href="/concept_statement"
+                                        >Concept Statement</a
+                                    >
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="navbarDropdown2"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Design
+                                </a>
+                                <div
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdown2"
+                                >
+                                    <a
+                                        class="dropdown-item"
+                                        href="/design_thinking"
+                                        >Design Thinking</a
+                                    >
+                                    <a
+                                        class="dropdown-item"
+                                        href="/conceptual_design"
+                                        >Conceptual Design</a
+                                    >
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown active-item">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="navbarDropdown2"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Prototyping
+                                </a>
+                                <div
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdown2"
+                                >
+                                    <a
+                                        class="dropdown-item active-item"
+                                        href="/paper_prototyping"
+                                        >Paper Prototyping</a
+                                    >
+                                    <a
+                                        class="dropdown-item"
+                                        href="/digital_prototyping"
+                                        >Digital Prototyping</a
+                                    >
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container">
+                <h1>Paper Prototyping</h1>
+                <div>
+                    <h3>Concept Statement</h3>
+                    <p>
+                        The UMD Mental Health Assistance System will replace the
+                        old behavioral health services provided by our client:
+                        the University of Maryland Health Center. It will
+                        provide 24-hour-a-day services to general students,
+                        especially to support freshmen students seeking mental
+                        health assistance. This service includes online mental
+                        health assistance for those who want to have an
+                        anonymous setting, for those seeking other resources,
+                        and for those who would like to meet outside of the UMD
+                        Health Center. The new system includes anonymous
+                        chatting, appointment scheduler, opportunity to meet
+                        outside of the health center, and VR meetings for those
+                        who live away from the campus and can’t commute to get
+                        assistance. The new design will be more inclusive of
+                        disabled students who wish to seek mental health
+                        treatment; our design will include various features, for
+                        example, a video with clear audio and subtitles to
+                        discuss treatment methods and processes to provide clear
+                        guidance. Furthermore, to acknowledge students of our
+                        existence, we will send weekly emails to students to
+                        seek our services if they are suffering from mental
+                        health disorders. Overall, previous behavioral health
+                        services failed to provide a variety of options,
+                        resulting in extensive waiting time and avoidance in
+                        seeking treatment. Compared to behavioral health
+                        services, our system will provide a variety of options
+                        to encourage students to seek mental health assistance
+                        comfortably. We will implement a UX solution that guides
+                        and encourages our users, primarily freshmen students,
+                        who experience mental health issues to seek our system.
+                    </p>
+                </div>
+                <div>
+                    <h3>Tasks and Features of our Prototype</h3>
+                    <div>
+                        <h4>Anonymous Chat</h4>
+                        <p>
+                            One of the main features that we have is an
+                            anonymous chat function. This feature is essential
+                            because many students avoid mental health treatment
+                            due to fear of stigma. The stigma around mental
+                            illness is a significant issue in our society;
+                            seeking professional help for mental illness is seen
+                            as weak and often followed by discrimination, a
+                            substantial barricade for people to seek mental
+                            health treatment (Borenstein, 2020). Thus, our
+                            application provides an anonymous chat function to
+                            prevent this issue. Without having to set up
+                            appointments, students can easily find and talk to
+                            professionals about their current mental illnesses.
+                            Furthermore, our anonymous chat feature can be used
+                            by any student without having to log into their
+                            account; it will protect students' confidentiality
+                            and ensure problem sharing is completely anonymous.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>VR Meeting</h4>
+                        <p>
+                            VR (Virtual Reality) meeting feature simulates a
+                            real space where patients can meet, talk, and
+                            interact with mental health professionals. This
+                            feature is essential since it provides students with
+                            a virtual space where they can talk about their
+                            illnesses without having to go to the UMD health
+                            center. One of the main reasons students avoided
+                            mental health treatment was lack of time (Czyz et
+                            al., 2013). College students, especially freshman
+                            students, are in an adjustment period, and they are
+                            more likely to be overwhelmed with assignments. In
+                            addition, trying to fit in additional commitment to
+                            seek treatment causes even more stress for students.
+                            Thus, our feature provides a virtual space where
+                            students can interact with mental health
+                            professionals for various treatments. Students will
+                            be able to save significant time by excluding
+                            traveling time. In addition, it will be economically
+                            beneficial because students will be able to save
+                            travel expenses.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Appointment Scheduler/Meet Outside</h4>
+                        <p>
+                            The appointment scheduler feature will provide
+                            students with an opportunity to set up appointments
+                            without having to go to the health center. With this
+                            feature, students will be able to set up
+                            appointments easily by logging in to our
+                            application. When students create their accounts,
+                            our system will ask for their personal information
+                            and UID; thus, students do not have to type in
+                            additional information when scheduling appointments.
+                            Students will be able to easily schedule their
+                            appointment because our system shows a calendar with
+                            available dates and times. Another feature called
+                            Meet Outside provides students with an opportunity
+                            to seek mental health professionals outside of the
+                            normal healthcare environment. It will provide
+                            students comfort by selecting an environment where
+                            students are familiar to interact with
+                            professionals. Furthermore, walking meetings can
+                            boost mental and physical health by improving
+                            “self-perception and self-esteem, mood and sleep
+                            quality, and it reduces stress and anxiety”
+                            (Walkingforhealth, n.d.).
+                        </p>
+                    </div>
+                    <div>
+                        <h4>24 Hour Hotline</h4>
+                        <p>
+                            Another important feature that our system provides
+                            is a 24-hour hotline. It is free and confidential
+                            support for students in distress and experiencing
+                            mental issues. It can be a good starting point where
+                            students can obtain information, resources, and
+                            support with mental health illnesses. With trained
+                            professionals’ help, students will be able to reduce
+                            the mental illness that they are suffering at the
+                            moment. Also, since it is confidential and
+                            anonymous, students won’t have any pressure talking
+                            about the current issue that they are experiencing.
+                            Furthermore, it will encourage students to seek
+                            mental health treatment for those who have a
+                            preference for self-management.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h3>Images and Walkthrough</h3>
+                    <div class="container">
+                        <h4>Images</h4>
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                            <div class="col">
+                                <figure>
+                                    <img
+                                        src="/paper_prototyping/images/home.jpg"
+                                        alt="sketch of a popup tent next to a sidewalk."
+                                    />
+                                    <figcaption>
+                                        The home screen of our app.
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col">
+                                <figure>
+                                    <img
+                                        src="/paper_prototyping/images/menu.jpg"
+                                        alt="sketch of a popup tent next to a sidewalk."
+                                    />
+                                    <figcaption>
+                                        The menu opened on our app.
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col">
+                                <figure>
+                                    <img
+                                        src="/paper_prototyping/images/anonchat1.jpg"
+                                        alt="sketch of a popup tent next to a sidewalk."
+                                    />
+                                    <figcaption>
+                                        The first screen of the anonymous chat
+                                        page.
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col">
+                                <figure>
+                                    <img
+                                        src="/paper_prototyping/images/anonchat2.jpeg"
+                                        alt="sketch of a popup tent next to a sidewalk."
+                                    />
+                                    <figcaption>
+                                        The second screen of the anonymous chat
+                                        page showing a user typing a reply.
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col">
+                                <figure>
+                                    <img
+                                        src="/paper_prototyping/images/anonchat3.jpeg"
+                                        alt="sketch of a popup tent next to a sidewalk."
+                                    />
+                                    <figcaption>
+                                        The third screen of the anonymous chat
+                                        page showing a user reply in the chat.
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col">
+                                <figure>
+                                    <img
+                                        src="/paper_prototyping/images/vr1.jpg"
+                                        alt="sketch of a popup tent next to a sidewalk."
+                                    />
+                                    <figcaption>
+                                        The first screen of the vr chat page.
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col">
+                                <figure>
+                                    <img
+                                        src="/paper_prototyping/images/vr2.jpg"
+                                        alt="sketch of a popup tent next to a sidewalk."
+                                    />
+                                    <figcaption>
+                                        The second screen of the vr chat page
+                                        redirecting the user.
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col">
+                                <figure>
+                                    <img
+                                        src="/paper_prototyping/images/hotline1.jpg"
+                                        alt="sketch of a popup tent next to a sidewalk."
+                                    />
+                                    <figcaption>
+                                        The first screen of the 24 hour hotline.
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col">
+                                <figure>
+                                    <img
+                                        src="/paper_prototyping/images/hotline2.jpg"
+                                        alt="sketch of a popup tent next to a sidewalk."
+                                    />
+                                    <figcaption>
+                                        The second screen of the 24 hour hotline
+                                        showing a user calling.
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col">
+                                <figure>
+                                    <img
+                                        src="/paper_prototyping/images/schedule1.jpg"
+                                        alt="sketch of a popup tent next to a sidewalk."
+                                    />
+                                    <figcaption>
+                                        The first screen of the appointment
+                                        schedule page.
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col">
+                                <figure>
+                                    <img
+                                        src="/paper_prototyping/images/schedule2.jpg"
+                                        alt="sketch of a popup tent next to a sidewalk."
+                                    />
+                                    <figcaption>
+                                        The second screen of the appointment
+                                        schedule page.
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col">
+                                <figure>
+                                    <img
+                                        src="/paper_prototyping/images/schedule3.jpg"
+                                        alt="sketch of a popup tent next to a sidewalk."
+                                    />
+                                    <figcaption>
+                                        The third screen of the appointment
+                                        schedule page.
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col">
+                                <figure>
+                                    <img
+                                        src="/paper_prototyping/images/schedule4.jpg"
+                                        alt="sketch of a popup tent next to a sidewalk."
+                                    />
+                                    <figcaption>
+                                        The fourth screen of the appointment
+                                        schedule page.
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col">
+                                <figure>
+                                    <img
+                                        src="/paper_prototyping/images/meet1.jpg"
+                                        alt="sketch of a popup tent next to a sidewalk."
+                                    />
+                                    <figcaption>
+                                        The first screen of the meet outside
+                                        page.
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col">
+                                <figure>
+                                    <img
+                                        src="/paper_prototyping/images/meet2.jpg"
+                                        alt="sketch of a popup tent next to a sidewalk."
+                                    />
+                                    <figcaption>
+                                        The second screen of the meet outside
+                                        page.
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col">
+                                <figure>
+                                    <img
+                                        src="/paper_prototyping/images/meet3.jpg"
+                                        alt="sketch of a popup tent next to a sidewalk."
+                                    />
+                                    <figcaption>
+                                        The third screen of the meet outside
+                                        page.
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col">
+                                <figure>
+                                    <img
+                                        src="/paper_prototyping/images/meet4.jpg"
+                                        alt="sketch of a popup tent next to a sidewalk."
+                                    />
+                                    <figcaption>
+                                        The fourth screen of the meet outside
+                                        page.
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <h4>Video Walkthrough</h4>
+                        <div class="embed-responsive embed-responsive-21by9">
+                            <iframe
+                                class="embed-responsive-item"
+                                src="/paper_prototyping/images/walkthrough.mov"
+                                allowfullscreen
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3>Evaluation</h3>
+                    <div>
+                        <h4>Participant 1</h4>
+                        <h5>Thinking Aloud</h5>
+                        <ol>
+                            <li>
+                                I really like the simple opening design for the
+                                app. Although I feel like there is a lot to
+                                read, the direction is very clear on where the
+                                user should go for more information on the
+                                health center option and how to get started.
+                            </li>
+                            <li>
+                                I really like this part of the section because
+                                all the different types of products provided by
+                                the health center are here, such as the 24-hour
+                                hotline, VR visit, and basic appointment.
+                            </li>
+                            <li>
+                                I like the design for the anonymous chat; it's
+                                very simple and is like the iMessages, so it is
+                                very familiar to the user. There is no need for
+                                them to get adjusted to the system; they can
+                                start interacting and using this feature
+                                care-free.
+                            </li>
+                            <li>
+                                Okay, the VR Meeting might be a bit complicated
+                                for me to understand because of different things
+                                I would need to download first, but it's
+                                definitely a great feature to have for people
+                                who want to be there physically at the health
+                                center but can't for various reasons. However, I
+                                feel like some improvement can be made with the
+                                instructions for the VR.
+                            </li>
+                            <li>
+                                The page for a 24-hour outline, I like very
+                                much. It's very simple, and with only one click
+                                on the app, you are getting connected to the
+                                call.
+                            </li>
+                            <li>
+                                The schedule appointment page, I feel, could use
+                                a bit more detail. I like that the day and time
+                                are there and show how I will be choosing the
+                                day and time in the calendar.
+                            </li>
+                        </ol>
+                    </div>
+                    <div>
+                        <h4>Participant 2</h4>
+                        <h5>Thinking Aloud</h5>
+                        <ol>
+                            <li>
+                                I like the fact that it's simple, but when I
+                                think of the main page, the main thing required
+                                is icons rather than sentences. I like the
+                                second page; it is pretty straightforward, but
+                                maybe including a help option will make it
+                                easier.
+                            </li>
+                            <li>
+                                Anonymous chat is very similar to any basic chat
+                                message, and it is very easy to navigate. Also,
+                                showing whether the doctor has read the message
+                                or not and including timestamps at the end of
+                                each message would help the user.
+                            </li>
+                            <li>
+                                I like the VR option because it is very
+                                straightforward. For the redirect, maybe having
+                                a countdown for the redirect and having a back
+                                option to go back just in case the user wants to
+                                would be helpful.
+                            </li>
+                            <li>
+                                I like the 24hour hotline; it's very simple, and
+                                maybe having a disclaimer of information being
+                                confidential would be nice to have for the user.
+                            </li>
+                            <li>
+                                More information on Meeting Outside, there
+                                should be more options leading up to the Meeting
+                                outside page. What if the user accidentally
+                                clicked on it and it submits that? So, having a
+                                page leading up to it would be helpful.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div>
+                    <h3>References</h3>
+                    <p>
+                        Borenstein, J. (2020, August).
+                        <em
+                            >Stigma, Prejudice and Discrimination Against People
+                            with Mental Illness.</em
+                        >
+                        American Psychiatric Association. Retrieved December 1,
+                        2021, from
+                        <a
+                            href="https://www.psychiatry.org/patients-families/stigma-and-discrimination"
+                            >https://www.psychiatry.org/patients-families/stigma-and-discrimination</a
+                        >
+                    </p>
+                    <p>
+                        Czyz, E. K., Horwitz, A. G., Eisenberg, D., Kramer, A.,
+                        & King, C. A. (2013). Self-reported Barriers to
+                        Professional Help Seeking Among College Students at
+                        Elevated Risk for Suicide.
+                        <em
+                            >Journal of American College Health, 61(7),
+                            398–406.</em
+                        >
+                        <a href="https://doi.org/10.1080/07448481.2013.820731"
+                            >https://doi.org/10.1080/07448481.2013.820731</a
+                        >
+                    </p>
+                    <p>
+                        Walkingforhealth. (n.d.).
+                        <em>Healthy Minds.</em> Retrieved December 1, 2021, from
+                        <a
+                            href="https://www.walkingforhealth.org.uk/get-walking/why-walk/healthy-minds"
+                        >
+                            https://www.walkingforhealth.org.uk/get-walking/why-walk/healthy-minds</a
+                        >
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
